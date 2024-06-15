@@ -71,10 +71,14 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+
+
     implementation("com.squareup.retrofit2:retrofit:2.10.0")
     implementation("com.squareup.retrofit2:converter-moshi:2.10.0")
     implementation("com.squareup.moshi:moshi-kotlin:1.9.3")
     implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("com.vanniktech:android-image-cropper:4.5.0")
+
     implementation("androidx.credentials:credentials:1.2.2")
     implementation("androidx.credentials:credentials-play-services-auth:1.2.2")
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.0")
@@ -89,4 +93,5 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.6.4")
 }
